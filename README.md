@@ -171,4 +171,5 @@ clearly ahead of French. For Black the numbers are very clear.
 Black won with Sicilian in 35% or all cases, almost three times as
 often as with the runner-up French. 
 
-![](images/Games_won_per_opening_system_[Expert].jpg)
+![](images/Games_won_per_opening_system_[Experts].jpg)
+
