@@ -121,7 +121,7 @@ is a special case since it is both a system that beginners learn first
 as well as a system that is sometimes used by experienced players.
 Rank 5 and 6 are examples of rare openings probably used by beginners.
 
-![x](images/Total_Distribution_of_Opening_Systems.jpg) 
+![](images/Total_Distribution_of_Opening_Systems.jpg) 
 
 ### Question 2: Do we see a change in the most frequently used opening systems if we break the data by skill level?
 
@@ -129,7 +129,7 @@ Yes, we do. The change is as expected. In the beginners level, the
 King\'s Pawn Game dominates. In addition, we see rare and aggrassive
 openings such as Scandinavian, Van\'t Kruijs, Hungarian and Kadas.
 These openings aim to outsmart the opponent quickly or luring him into
- a trap, and can thus hardly be seen on tournament level. As we move
+a trap, and can thus hardly be seen on tournament level. As we move
 on to intermediate players, the Sicilian Defense begins to dominate
 and keeps doing so in the higher layers. The King\'s Pawn Game is on
 a decline. Intemediate players apparently pick more sophisticated
