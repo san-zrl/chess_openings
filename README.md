@@ -1,6 +1,6 @@
 # Chess Openings
 
-![Analyzing Chess Opening Systems](Analyzing_Chess_Opening_Systems.jpg)
+![Analyzing Chess Opening Systems](images/Analyzing_Chess_Opening_Systems.jpg)
 
 ## Table of contents
 
