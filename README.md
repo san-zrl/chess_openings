@@ -121,7 +121,7 @@ is a special case since it is both a system that beginners learn first
 as well as a system that is sometimes used by experienced players.
 Rank 5 and 6 are examples of rare openings probably used by beginners.
 
-![](images/Total_Distribution_of_Opening_Systems.pdf) 
+![x](images/Total_Distribution_of_Opening_Systems.pdf) 
 
 ### Question 2: Do we see a change in the most frequently used opening systems if we break the data by skill level?
 
@@ -151,7 +151,7 @@ or Van\'t Kruijs seem to be the recommended choice since White won
 in more than 20% and 17% of all cases, respectively, which is better
 than for any other opening.
 
-![]images/Games_won_per_opening_system_[Beginners].pdf()
+![](images/Games_won_per_opening_system_[Beginners].pdf)
 
 At intermediate level, the ranking up to rank 4 is the same for
 Black and White with Sicilian Defense, King's Pawn Game, French
