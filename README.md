@@ -1,9 +1,13 @@
-## Tabkle of contents
+## Table of contents
 
 - [Introduction](#Introduction)
 - [Download](#Download)
 - [Files in this Repository](#Files-in-this-Repository)
-- []()
+- [Installation and Libraries](#Installation-and-Libraries)
+  - [Create the Virtual Environment](#Create-the-Virtual-Environment)
+  - [Install Python Libraries](#Install-Python-Libraries)
+  - [Start the Jupyter Notebook](#Start-the-Jupyter-Notebook)
+- [Results](#Results)
 
 
 ## Introduction
@@ -61,7 +65,7 @@ notebook you must install the follwing python libraries preferrably
 in a python virtual environment in which also the jupyter notebook is
 started
 
-### Create the Vtrtual Environment
+### Create the Virtual Environment
 
 It is beneficial to install a dedicated python virtual envirionment
 such that the libraries installed in the following step are kept separate
