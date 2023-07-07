@@ -2,7 +2,7 @@
   <img src="images/Analyzing_Chess_Opening_Systems.jpg?raw=true"/>
 </p>
 
-# Chess Openings
+# Analysis of Chess Openings
 
 ## Table of contents
 
@@ -23,13 +23,13 @@
 
 I am a chess player. I used to play in my youth a lot but then lost
 contact to the game due to lack of playing partners. I couple of
-years ago I discovered Lichess.org and got back into playing. This
+years ago I discovered [Lichess.org](https://lichess.org) and got back into playing. This
 re-boosted my playing level and os I thought I use their free data
 for this data science project on chess openings.
 
-Lichess.org is a free online chess server that provides an extensive
+[Lichess.org](https://lichess.org) is a free online chess server that provides an extensive
 data set on all games that have been played between Jan 2013 until
-today at the Lichess.org open database. At the time of writing, this
+today at the [Lichess.org open database](https://database.lichess.org/). At the time of writing, this
 data comprises almost 1.5TB. The data is split into files per month
 that stored as compressed PGN. PGN data provides metadata on the games,
 the moves made in the games plus timing and scoring information. It
