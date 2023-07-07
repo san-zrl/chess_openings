@@ -121,7 +121,7 @@ is a special case since it is both a system that beginners learn first
 as well as a system that is sometimes used by experienced players.
 Rank 5 and 6 are examples of rare openings probably used by beginners.
 
-![x](images/Total_Distribution_of_Opening_Systems.pdf) 
+![x](images/Total_Distribution_of_Opening_Systems.jpg) 
 
 ### Question 2: Do we see a change in the most frequently used opening systems if we break the data by skill level?
 
@@ -142,7 +142,7 @@ expert level, Sicilian advances its lead to more than 33%, leading by
 far over French with 15%. English and the Caro-Cann system got 
 stronger and the Queen's Gambit Declined shows up.  
 
-![](images/Distribution_of_Opening_Systems.pdf)
+![](images/Distribution_of_Opening_Systems.jpg)
 
 ### Question 3: What are the most sucessful opening systems for White or Black per skill level?
 
@@ -151,19 +151,19 @@ or Van\'t Kruijs seem to be the recommended choice since White won
 in more than 20% and 17% of all cases, respectively, which is better
 than for any other opening.
 
-![](images/Games_won_per_opening_system_[Beginners].pdf)
+![](images/Games_won_per_opening_system_[Beginners].jpg)
 
 At intermediate level, the ranking up to rank 4 is the same for
 Black and White with Sicilian Defense, King's Pawn Game, French
 Defense, and Queen\'s Pawn Game being the most promising choices.
 
-![](images/Games_won_per_opening_system_[Intermediate].pdf)
+![](images/Games_won_per_opening_system_[Intermediate].jpg)
 
 At advanced level, King\'s Pawn is not successful anymore for White
 while Sicilian, French, and Queen\'s Pawn keep their strong positions.
 Sicilian seems very successful for Black.
 
-![](images/Games_won_per_opening_system_[Advanced].pdf)
+![](images/Games_won_per_opening_system_[Advanced].jpg)
 
 For expert level players, Sicilian seems to be the opening base of
 choice both for White and Black. White won in 21% of all cases,
@@ -171,4 +171,4 @@ clearly ahead of French. For Black the numbers are very clear.
 Black won with Sicilian in 35% or all cases, almost three times as
 often as with the runner-up French. 
 
-![](images/Games_won_per_opening_system_[Expert].pdf)
+![](images/Games_won_per_opening_system_[Expert].jpg)
