@@ -1,5 +1,9 @@
 # Chess Openings
 
+<p align="center">
+  <img src="images/Analyzing_Chess_Opening_Systems.jpg?raw=true"/>
+</p>
+
 ![Analyzing Chess Opening Systems](images/Analyzing_Chess_Opening_Systems.jpg)
 
 ## Table of contents
