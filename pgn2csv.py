@@ -4,6 +4,10 @@ import sys
 
 from datetime import datetime
 
+if len(sys.argv) < 2:
+    print('python3 ./pgn2csv.py <your pgn input file with games data> <your csv output file>')
+    sys.exit(1)
+
 games = []
     
 with open(sys.argv[1]) as pgn:
