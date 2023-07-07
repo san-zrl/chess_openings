@@ -111,21 +111,64 @@ The analysis concentrates on three questions:
 
 ### Question 1: What are the most frequently used opening systems?
 
-We see the expected mix of are and complex opening systems for White which is due to the fact that the analysis was perfromed across all games independent of the players skill levels.  
+We see the expected mix of are and complex opening systems for White
+which is due to the fact that the analysis was perfromed across all
+games independent of the players skill levels.  
 
-The first three ranks contain complex systems with many variants that are probably used by more experienced players.
-The King Pawn Game ob ranks is a special case sice it is both a system that beginners learn first as well as a system that is used by many experienced players. Rank 5 and 6 are examples of rare openings probably used by beginners.
+The first three ranks contain complex systems with many variants that
+are probably used by more experienced players. The King\\'s Pawn Game
+is a special case since it is both a system that beginners learn first
+as well as a system that is sometimes used by experienced players.
+Rank 5 and 6 are examples of rare openings probably used by beginners.
+
+![](images/Distribution_of_Opening_Systems.pdf) 
 
 ### Question 2: Do we see a change in the most frequently used opening systems if we break the data by skill level?
 
-Yes, we do. The change is as expected. In the beginners level, the Kings Pawn Game dominates. In addition, we ses rare and aggrassive openings sich as Scandinavian, Van't Kruijs, Hungarian and Kadas. These openings aim to outsmart the opponent quickly or luriing him in a trap, and can thus hardly be seen on tournament level. As we move on to intermediate players, the Sicilian Defense begins to dominate and keep doing so in the higher layers. The King's Pawn Game is on a declin. Intemediate players apparently pick more sophisticated openings and we can see the rise of the Queen's Pawn Game and the French Defense. In the intermediate level this exolution continues. The King Pawn Game has completely disappeared from the top-10 list and common openings such as Sicilian, French, Queen's Pawn Game or the Caro-Cann system can be seen. In the top-10 list of openings on expert level, Sicilean advances its lead to more than 33%, leading by far over French with 15%. English and the Caro-Cann system got stronger and the Queen's Gambit Declined shows up.  
+Yes, we do. The change is as expected. In the beginners level, the
+King\\'s Pawn Game dominates. In addition, we see rare and aggrassive
+openings such as Scandinavian, Van\\'t Kruijs, Hungarian and Kadas.
+These openings aim to outsmart the opponent quickly or luring him into
+ a trap, and can thus hardly be seen on tournament level. As we move
+on to intermediate players, the Sicilian Defense begins to dominate
+and keeps doing so in the higher layers. The King\\'s Pawn Game is on
+a decline. Intemediate players apparently pick more sophisticated
+openings and we can see the rise of the Queen\\'s Pawn Game and the
+French Defense. In the intermediate level this evolution continues.
+The King\\'s Pawn Game has completely disappeared from the top-10 list
+and common openings such as Sicilian, French, Queen\\'s Pawn Game or
+the Caro-Cann system can be seen. In the top-10 list of openings on
+expert level, Sicilian advances its lead to more than 33%, leading by
+far over French with 15%. English and the Caro-Cann system got 
+stronger and the Queen's Gambit Declined shows up.  
+
+![](Total_Distribution_of_Opening_Systems.pdf)
 
 ### Question 3: What are the most sucessful opening systems for White or Black per skill level?
 
-In the beginners_level, for both Black and White. Kings Pawn Game or Van't Kruijs seem to be the recommended choice since White won in more than 20% and 17% of all cases, respectively, which is better than for any other opening. At Intermediate level, the ranking up to rank 4 is the same for Black and White with Sicilian Defense, King's Pawn Game,
-French Defense, and Queen's Pawn Game being the most promising choices. At advanced level, Kings Pawn is not successful anymore for White while Sicilian, French, and Queen's Pawn keep their string positions. Sicilian is very successful for Black. For expert level players, Sicilian seems to be the opening base of choice both for White and Black. White won in 21% of all cases, clearly ahead of French. For Black the numbers are very clear Black won with Sicilian in 35% or all cases, almost three time as often as with the runner-up French again. 
+In the beginner level, for both Black and White King\\'s Pawn Game
+or Van\\'t Kruijs seem to be the recommended choice since White won
+in more than 20% and 17% of all cases, respectively, which is better
+than for any other opening.
 
-	 
+![]images/Games_won_per_opening_system_[Beginners].pdf()
 
+At intermediate level, the ranking up to rank 4 is the same for
+Black and White with Sicilian Defense, King's Pawn Game, French
+Defense, and Queen\\'s Pawn Game being the most promising choices.
 
+![](images/Games_won_per_opening_system_[Intermediate].pdf)
 
+At advanced level, King\\'s Pawn is not successful anymore for White
+while Sicilian, French, and Queen\\'s Pawn keep their strong positions.
+Sicilian seems very successful for Black.
+
+![](images/Games_won_per_opening_system_[Advanced].pdf)
+
+For expert level players, Sicilian seems to be the opening base of
+choice both for White and Black. White won in 21% of all cases,
+clearly ahead of French. For Black the numbers are very clear.
+Black won with Sicilian in 35% or all cases, almost three times as
+often as with the runner-up French. 
+
+![](images/Games_won_per_opening_system_[Expert].pdf)
