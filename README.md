@@ -8,9 +8,9 @@
   - [Install Python Libraries](#Install-Python-Libraries)
   - [Start the Jupyter Notebook](#Start-the-Jupyter-Notebook)
 - [Results](#Results)
-  - [Question 1: What are the most frequently used opening systems?](#Question-1:-What-are-the-most-frequently-used-opening-systems?)
-  - [Question 2: Do we see a change in the most frequently used opening systems if we break the data by skill level?](#Question-2:-Do-we-see-a-change-in-the-most-frequently-used-opening-systems-if-we-break-the-data by-skill-level?)
-  - [What are the most sucessful opening systems for White or Black per skill level?](#What-are-the-most-sucessful-opening-systems-for-White-or-Black-per-skill=level?)
+  - [What are the most frequently used opening systems?](#Question-1:-What-are-the-most-frequently-used-opening-systems)
+  - [Do we see a change in the most frequently used opening systems if we break the data by skill level?](#Question-2:-Do-we-see-a-change-in-the-most-frequently-used-opening-systems-if-we-break-the-data by-skill-level)
+  - [What are the most sucessful opening systems for White or Black per skill level?](#What-are-the-most-sucessful-opening-systems-for-White-or-Black-per-skill-level)
 
 
 ## Introduction
