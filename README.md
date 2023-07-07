@@ -82,23 +82,26 @@ $ . venv/bin/activate
 ### Install Python Libraries
 
 The libraries needed for this notebook are `pandas`, `numpy`, `matplotlib`
-and `jupyter`. Run in your activated venv:
+and `jupyter`. `python-chess` is only necessary if you want to run
+`pgn2csv.py`. Run in your activated venv:
 
 ``` bash
-pip3 install pandas numpy matplotlib jupyter
+(venv)$ pip3 install pandas numpy matplotlib jupyter
 ```
 
 ### Start the Jupyter Notebook
 
+Start the jupyter notebook in the venv.
+
 ``` bash
-$ jupyter notebook
+(venv)$ jupyter notebook
 ```
 
 Open `chess_openings.ipynb` and step through the analysis.
 
 ## Results
 
-The Analysis concentrates on three questions:
+The analysis concentrates on three questions:
 
 ### Question 1: What are the most frequently used opening systems?
 
