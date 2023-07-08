@@ -15,7 +15,7 @@ data set on all games that have been played between Jan 2013 until
 today at the [Lichess.org open database](https://database.lichess.org/). At the time of writing, this
 data comprises almost 1.5TB.
 
-Lichess data provides information about the players' skill (in terms of their [ELO](https://en.wikipedia.org/wiki/Elo_rating_system) points), the result
+Lichess data provides information about the players\' skill (in terms of their [ELO](https://en.wikipedia.org/wiki/Elo_rating_system) points), the result
 of the game and, most importantly for the purposes of this article, the opening that was played. I ran
 a data science study and investigated three key questions.
 
@@ -34,7 +34,7 @@ in the metadata.
   <img alt="image" src="images/metadata.png">
 </p>
 
-I added an `opening_base` column that generalizes the particular opening to the root opening system. Chess openings are classified in a tree-like fashion. The tree starts at the opening system (e.g., Queen's Pawn Game) and then names the variants and sub-variants (e.g., Queen's Pawn Game: Colle System, Anti-Colle). There are complex openings with lots of variants for which a lot of theoretical research has been done, and less complex openings. In order to get reasonably sized classes, I decided to map the individual opening to its opening system which is stored in a separate column.
+I added an `opening_base` column that generalizes the particular opening to the root opening system. Chess openings are classified in a tree-like fashion. The tree starts at the opening system (e.g., Queen\'s Pawn Game) and then names the variants and sub-variants (e.g., Queen's Pawn Game: Colle System, Anti-Colle). There are complex openings with lots of variants for which a lot of theoretical research has been done, and less complex openings. In order to get reasonably sized classes, I decided to map the individual opening to its opening system which is stored in a separate column.
 For this article, I picked a sample file containing the metadata of 121,322 Lichess games
 with 9 attribute each:
 
@@ -46,7 +46,7 @@ with 9 attribute each:
 - `time_control`: Time limit plus seconds added per move
 - `termination`: Reason for terminating the game as one of ['Normal', Time forfait'].
 
-The original PGN data also contained the playesr's Lichess user names. I stripped them for privacy reasons.
+The original PGN data also contained the playesr\'s Lichess user names. I stripped them for privacy reasons.
 
 ## Q1: What are the most frequently used opening systems?
 
@@ -58,13 +58,44 @@ games independent of the players skill levels.
 ![](images/Total_Distribution_of_Opening_Systems.jpg)
 
 The first three ranks contain complex systems with many variants that
-are probably used by more experienced players. The King's Pawn Game
+are probably used by more experienced players. The King\'s Pawn Game
 is a special case since it is both a system that beginners learn first
 as well as a system that is sometimes used by experienced players.
 Rank 5 and 6 are examples of rare openings probably used by beginners.
 
 ## Q2: What are the most frequently used opening systems in different skill levels?
 
+Players have different skill level indicated by ther ELO points. I grouped the players into four different
+group accoring to the ELO points
+
+1. Beginners: ELO &le; 1200
+2. Intermediate: 1200 &lt; ELO &le; 1600
+3. Advanced: 1600 &lt; ELO &le; 2000
+4. Expert: ELO &gt; 2000
+
+In order to classify games I computed the average of the ELO of the two opponents to get
+a classification of games. When we look at the distribution of opening systemm in the different
+ganes classes we see some changes.
+
+In the beginners level, the King\'s Pawn Game dominates. In addition, we see rare and aggrassive
+openings such as Scandinavian, Van\'t Kruijs, Hungarian and Kadas.
+These openings aim to outsmart the opponent quickly or luring him into
+a trap and can thus hardly be seen on tournament level. As we move
+on to intermediate players, the Sicilian Defense begins to dominate
+and keeps doing so in the higher layers. The King\'s Pawn Game is on
+a decline.
+
+![](images/Distribution_of_Opening_Systems.jpg)
+
+Intermediate players apparently pick more sophisticated
+openings and we can see the rise of the Queen\'s Pawn Game and the
+French Defense. In the intermediate level this evolution continues.
+The King\'s Pawn Game has completely disappeared from the top-10 list
+and common openings such as Sicilian, French, Queen\'s Pawn Game or
+the Caro-Cann system can be seen. In the top-10 list of openings on
+expert level, Sicilian advances its lead to more than 33%, leading by
+far over French with 15%. English and the Caro-Cann system got
+stronger and the Queen's Gambit Declined shows up.
 ## Q3: What are the most succeessful opening systems for White and Black per skill level?
 
 ## Key Takeaways
