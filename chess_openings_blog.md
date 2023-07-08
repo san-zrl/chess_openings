@@ -30,7 +30,7 @@ the moves made in the games plus timing and scoring information. It
 is tailored for chess engines to replay and analyze games. I was interested only
 in the metadata.  
 
-[[https://github.com/san-zrl/chess_openings/blob/main/images/metadata.png]]
+![](https://github.com/san-zrl/chess_openings/blob/main/images/metadata.png)
 
 I added an `opening_base` column that generalizes the particular opening to the root opening system.
 Chess openings are classified in a tree-like fashion. The tree starts at the opening system (e.g.,
@@ -59,7 +59,7 @@ of this list is shown below. We see a mix of rare and complex opening systems
 which is due to the fact that the analysis was performed across all
 games independent of the players skill levels.
 
-[[https://github.com/san-zrl/chess_openings/blob/main/images/Total_Distribution_of_Opening_Systems.jpg]]
+![](https://github.com/san-zrl/chess_openings/blob/main/images/Total_Distribution_of_Opening_Systems.jpg)
 
 The first three ranks contain complex systems with many variants that
 are probably used by more experienced players. The King\'s Pawn Game
@@ -89,7 +89,7 @@ on to intermediate players, the Sicilian Defense begins to dominate
 and keeps doing so in the higher layers. The King\'s Pawn Game is on
 a decline.
 
-[[https://github.com/san-zrl/chess_openings/blob/main/images/Distribution_of_Opening_Systems.jpg]]
+![](https://github.com/san-zrl/chess_openings/blob/main/images/Distribution_of_Opening_Systems.jpg)
 
 Intermediate players apparently pick more sophisticated
 openings and we can see the rise of the Queen\'s Pawn Game and the
@@ -108,19 +108,19 @@ or Van\'t Kruijs seem to be the recommended choice since White won
 in more than 20% and 17% of all cases, respectively, which is better
 than for any other opening.
 
-[[https://github.com/san-zrl/chess_openings/blob/main/images/Games_won_per_opening_system_[Beginners].jpg]]
+![](https://github.com/san-zrl/chess_openings/blob/main/images/Games_won_per_opening_system_[Beginners].jpg)
 
 At intermediate level, the ranking up to rank 4 is the same for
 Black and White with Sicilian Defense, King\'s Pawn Game, French
 Defense, and Queen\'s Pawn Game being the most promising choices.
 
-[[https://github.com/san-zrl/chess_openings/blob/main/images/Games_won_per_opening_system_[Intermediate].jpg]]
+![](https://github.com/san-zrl/chess_openings/blob/main/images/Games_won_per_opening_system_[Intermediate].jpg)
 
 At advanced level, King\'s Pawn is not successful anymore for White
 while Sicilian, French, and Queen\'s Pawn keep their strong positions.
 Sicilian seems very successful for Black.
 
-[[https://github.com/san-zrl/chess_openings/blob/main/images/Games_won_per_opening_system_[Advanced].jpg]]
+![](https://github.com/san-zrl/chess_openings/blob/main/images/Games_won_per_opening_system_[Advanced].jpg)
 
 For expert level players, Sicilian seems to be the opening base of
 choice both for White and Black. White won in 21% of all cases,
@@ -128,7 +128,7 @@ clearly ahead of French. For Black the numbers are very clear.
 Black won with Sicilian in 35% or all cases, almost three times as
 often as with the runner-up French.
 
-[[https://github.com/san-zrl/chess_openings/blob/main/images/Games_won_per_opening_system_[Experts].jpg]]
+![](https://github.com/san-zrl/chess_openings/blob/main/images/Games_won_per_opening_system_[Experts].jpg)
 
 ## Key Takeaways
 
