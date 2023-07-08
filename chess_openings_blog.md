@@ -42,7 +42,7 @@ to map the individual opening to its opening system which is stored in a separat
 For this article, I picked a sample file containing the metadata of 121,322 Lichess games
 with 9 attributes each:
 
-- `eco`: the [ECO code](https://en.wikipedia.org/wiki/Encyclopaedia_of_Chess_Openings)of the opening
+- `eco`: the [ECO code](https://en.wikipedia.org/wiki/Encyclopaedia_of_Chess_Openings) of the opening
 - `opening`: the opening name
 - `opening_base`: the opening system (see above)
 - `winner`: the winner of the game as one of ['White', 'Black', 'Draw'].
