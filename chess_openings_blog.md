@@ -11,25 +11,38 @@ data set on all games that have been played between Jan 2013 until
 today at the [Lichess.org open database](https://database.lichess.org/). At the time of writing, this
 data comprises almost 1.5TB.
 
-Lichess data provides information about the players' skill (in terms of their ELO points), the result
+Lichess data provides information about the players' skill (in terms of their [ELO](https://en.wikipedia.org/wiki/Elo_rating_system) points), the result
 of the game and, most importantly for the purposes of this article, the opening that was played. I ran
-a data science study and investigated three key question.
+a data science study and investigated three key questions.
 
-# Introduction
+## The Data
 
 Lichess free data is in PGN format. It provides metadata on the games,
 the moves made in the games plus timing and scoring information. It
 is tailored for chess engines to replay and analyze games. I was interested only
-in the matadata.  
+in the metadata.  
 
 <p align="center">
-<img width="887" alt="image" src="https://github.com/san-zrl/chess_openings/assets/77783802/1e2238a5-a18b-44f5-a7ce-a3d4994879ec">
+<img width="887" alt="image" src="https://github.com/san-zrl/chess_openings/aimages/metadata.png">
 </p>
 
-# Q1
+For this article, I picked a sample file containing the metadata of 121,322 Lichess games
+with 9 attribute each:
 
-# Q2
+eco: the [ECO code](https://en.wikipedia.org/wiki/Encyclopaedia_of_Chess_Openings)of the opening
+opening: the opening name
+opening_base: the opening system (see above)
+winner: the winner of the game as one of ['White', 'Black', 'Draw'].
+timestamp: when the game was played
+time_control: Time limit plus seconds added per move
+termination: Reason for terminating the game as one of ['Normal', Time forfait'].
 
-# Q3
+The original PGN data also contained the playesr's Lichess user names. I stripped them for privacy reasons.
 
-# Key takeaways
+## 1. What are the most frequently used opening systems?
+
+## 2. What are the most frequently used opening systems in different skill levels?
+
+## 3. What are the most succeessful opening systems for White and Black per skill level?
+
+## Key takeaways
