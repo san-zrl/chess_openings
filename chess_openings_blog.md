@@ -30,16 +30,17 @@ in the metadata.
   <img alt="image" src="images/metadata.png">
 </p>
 
+I added an `opening_base` column that generalizes the particular opening to the root opening system. Chess openings are classified in a tree-like fashion. The tree starts at the opening system (e.g., Queen's Pawn Game) and then names the variants and sub-variants (e.g., Queen's Pawn Game: Colle System, Anti-Colle). There are complex openings with lots of variants for which a lot of theoretical research has been done, and less complex openings. In order to get reasonably sized classes, I decided to map the individual opening to its opening system which is stored in a separate column.
 For this article, I picked a sample file containing the metadata of 121,322 Lichess games
 with 9 attribute each:
 
-- eco: the [ECO code](https://en.wikipedia.org/wiki/Encyclopaedia_of_Chess_Openings)of the opening
-- opening: the opening name
-- opening_base: the opening system (see above)
-- winner: the winner of the game as one of ['White', 'Black', 'Draw'].
-- timestamp: when the game was played
-- time_control: Time limit plus seconds added per move
-- termination: Reason for terminating the game as one of ['Normal', Time forfait'].
+- **eco**: the [ECO code](https://en.wikipedia.org/wiki/Encyclopaedia_of_Chess_Openings)of the opening
+- **opening**: the opening name
+- **opening_base**: the opening system (see above)
+- **winner**: the winner of the game as one of ['White', 'Black', 'Draw'].
+- **timestamp**: when the game was played
+- **time_control**: Time limit plus seconds added per move
+- **termination**: Reason for terminating the game as one of ['Normal', Time forfait'].
 
 The original PGN data also contained the playesr's Lichess user names. I stripped them for privacy reasons.
 
