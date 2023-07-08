@@ -34,7 +34,13 @@ in the metadata.
   <img alt="image" src="images/metadata.png">
 </p>
 
-I added an `opening_base` column that generalizes the particular opening to the root opening system. Chess openings are classified in a tree-like fashion. The tree starts at the opening system (e.g., Queen\'s Pawn Game) and then names the variants and sub-variants (e.g., Queen's Pawn Game: Colle System, Anti-Colle). There are complex openings with lots of variants for which a lot of theoretical research has been done, and less complex openings. In order to get reasonably sized classes, I decided to map the individual opening to its opening system which is stored in a separate column.
+I added an `opening_base` column that generalizes the particular opening to the root opening system.
+Chess openings are classified in a tree-like fashion. The tree starts at the opening system (e.g.,
+Queen\'s Pawn Game) and then names the variants and sub-variants (e.g., Queen's Pawn Game: Colle
+System, Anti-Colle). There are complex openings with lots of variants for which a lot of theoretical 
+esearch has been done, and less complex openings. In order to get reasonably sized classes, I decided
+to map the individual opening to its opening system which is stored in a separate column.
+
 For this article, I picked a sample file containing the metadata of 121,322 Lichess games
 with 9 attribute each:
 
@@ -127,3 +133,22 @@ often as with the runner-up French.
 ![](images/Games_won_per_opening_system_[Experts].jpg)
 
 ## Key Takeaways
+
+The overall distribute of opening systems show the mixture of preferred system
+across all levels.
+
+When we break down per skill level the picture becommes clearer. The King'\s Pawn Game
+dominates in the beginner group, declines for intermediate players and finally disappears
+from the top-10 lists to be replaces by more sophisticated opening like Sicilian and French.
+
+The most successful opening systems at beginner level seem to be King\'s Pawn Game
+or Van\'t Kruijs for both Black and White. As intermediate level, players hove success with
+Sicilian Defense, King\'s Pawn Game, French Defense, and Queen\'s Pawn Game withour much
+difference between Black and White. At advanced level, King\'s Pawn is not successful anymore for White
+while Sicilian, French, and Queen\'s Pawn keep their strong positions.
+Sicilian seems very successful for Black. For expert level players, Sicilian seems to be the opening base of
+choice both for White and Black.
+
+As a player you should buid up a repertoire of your favourite openings from the open, half-open, and closed
+systems, study them well and practise them repeatedly against stornger players. As you become stronger you
+should switch to more complex systems.
