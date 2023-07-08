@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/Analyzing_Chess_Opening_Systems.jpg?raw=true"/>
+  <img src="images/Queens_Gambit_Declined.png" width="320" height="320"/>
 </p>
 
 # Analysis of Chess Openings
@@ -21,7 +21,7 @@
 
 ## Introduction
 
-I am a chess player. I used to play in my youth a lot but then lost
+I am a chess player. I used to play a lot when I was youner but then lost
 contact to the game due to lack of playing partners. A couple of
 years ago I discovered [Lichess.org](https://lichess.org) and got back into playing. This
 re-boosted my playing level and so I thought I use their free data
@@ -31,7 +31,7 @@ for this data science project on chess openings.
 data set on all games that have been played between Jan 2013 until
 today at the [Lichess.org open database](https://database.lichess.org/). At the time of writing, this
 data comprises almost 1.5TB. The data is split into files per month
-that stored as compressed PGN. PGN data provides metadata on the games,
+that iare stored in compressed PGN format. PGN data provides metadata on the games,
 the moves made in the games plus timing and scoring information. It
 is tailored for chess engines to replay and analyze games.
 In our example, we only need the game metadata.
@@ -59,7 +59,7 @@ cd chess-openings
 There is no need to run the PGN-to-CSV converter. It extracts the
 metadata, applies some cleansing, strips the game moves and writes
 the data as csv. The sample file `lichess_db_standard_rated.csv.gz`
-was produces using this converter. The resulting CSV files are much
+was produced using this converter. The resulting CSV files are much
 smaller and load much faster. If you want to analyze other PGN files
 you need to run `pgn2csv.py` on them. 
 
@@ -72,7 +72,7 @@ $ python3 ./pgn2csv.py <your pgn input file with games data> <your csv output fi
 This repository provides a jupyter notebook. Prior to running the
 notebook you must install the following python libraries preferably
 in a python virtual environment in which also the jupyter notebook is
-started
+started.
 
 ### Create the Virtual Environment
 
@@ -134,7 +134,7 @@ on to intermediate players, the Sicilian Defense begins to dominate
 and keeps doing so in the higher layers. The King\'s Pawn Game is on
 a decline. Intermediate players apparently pick more sophisticated
 openings and we can see the rise of the Queen\'s Pawn Game and the
-French Defense. In the intermediate level this evolution continues.
+French Defense. In the advanced level this evolution continues.
 The King\'s Pawn Game has completely disappeared from the top-10 list
 and common openings such as Sicilian, French, Queen\'s Pawn Game or
 the Caro-Cann system can be seen. In the top-10 list of openings on
