@@ -19,6 +19,10 @@ Lichess data provides information about the players' skill (in terms of their [E
 of the game and, most importantly for the purposes of this article, the opening that was played. I ran
 a data science study and investigated three key questions.
 
+**1. What are the most frequently used opening systems?**
+**2. What are the most frequently used opening systems in different skill levels?**
+**3. What are the most succeessful opening systems for White and Black per skill level?**
+
 ## The Data
 
 Lichess free data is in PGN format. It provides metadata on the games,
