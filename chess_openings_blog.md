@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="images/Analyzing_Chess_Opening_Systems.jpg?raw=true"/>
+</p>
+
 # Chess Openings: How often they are played and what are their success rates?
 
 I am a chess player. I used to play a lot but when I was younger but then lost
@@ -23,7 +27,7 @@ is tailored for chess engines to replay and analyze games. I was interested only
 in the metadata.  
 
 <p align="center">
-<img width="887" alt="image" src="https://github.com/san-zrl/chess_openings/aimages/metadata.png">
+<img width="887" alt="image" src="https://github.com/san-zrl/chess_openings/images/metadata.png">
 </p>
 
 For this article, I picked a sample file containing the metadata of 121,322 Lichess games
