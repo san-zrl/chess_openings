@@ -48,10 +48,10 @@ with 9 attribute each:
 
 The original PGN data also contained the playesr's Lichess user names. I stripped them for privacy reasons.
 
-## 1. What are the most frequently used opening systems?
+## Q1: What are the most frequently used opening systems?
 
-## 2. What are the most frequently used opening systems in different skill levels?
+## Q2: What are the most frequently used opening systems in different skill levels?
 
-## 3. What are the most succeessful opening systems for White and Black per skill level?
+## Q3: What are the most succeessful opening systems for White and Black per skill level?
 
-## Key takeaways
+## Key Takeaways
