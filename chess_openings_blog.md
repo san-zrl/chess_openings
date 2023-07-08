@@ -33,13 +33,13 @@ in the metadata.
 For this article, I picked a sample file containing the metadata of 121,322 Lichess games
 with 9 attribute each:
 
-eco: the [ECO code](https://en.wikipedia.org/wiki/Encyclopaedia_of_Chess_Openings)of the opening
-opening: the opening name
-opening_base: the opening system (see above)
-winner: the winner of the game as one of ['White', 'Black', 'Draw'].
-timestamp: when the game was played
-time_control: Time limit plus seconds added per move
-termination: Reason for terminating the game as one of ['Normal', Time forfait'].
+- eco: the [ECO code](https://en.wikipedia.org/wiki/Encyclopaedia_of_Chess_Openings)of the opening
+- opening: the opening name
+- opening_base: the opening system (see above)
+- winner: the winner of the game as one of ['White', 'Black', 'Draw'].
+- timestamp: when the game was played
+- time_control: Time limit plus seconds added per move
+- termination: Reason for terminating the game as one of ['Normal', Time forfait'].
 
 The original PGN data also contained the playesr's Lichess user names. I stripped them for privacy reasons.
 
