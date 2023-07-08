@@ -27,7 +27,7 @@ is tailored for chess engines to replay and analyze games. I was interested only
 in the metadata.  
 
 <p align="center">
-<img width="887" alt="image" src="https://github.com/san-zrl/chess_openings/images/metadata.png">
+  <img alt="image" src="images/metadata.png">
 </p>
 
 For this article, I picked a sample file containing the metadata of 121,322 Lichess games
