@@ -50,6 +50,21 @@ The original PGN data also contained the playesr's Lichess user names. I strippe
 
 ## Q1: What are the most frequently used opening systems?
 
+This is the easiest of all questions to answer. We only have count the unique opening systems. The top-10
+of this list if show here.
+
+![](images/Total_Distribution_of_Opening_Systems.jpg)
+
+We see a mix of rare and complex opening systems for White
+which is due to the fact that the analysis was performed across all
+games independent of the players skill levels.
+
+The first three ranks contain complex systems with many variants that
+are probably used by more experienced players. The King's Pawn Game
+is a special case since it is both a system that beginners learn first
+as well as a system that is sometimes used by experienced players.
+Rank 5 and 6 are examples of rare openings probably used by beginners.
+
 ## Q2: What are the most frequently used opening systems in different skill levels?
 
 ## Q3: What are the most succeessful opening systems for White and Black per skill level?
