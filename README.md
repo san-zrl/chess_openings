@@ -22,7 +22,7 @@
 ## Introduction
 
 I am a chess player. I used to play in my youth a lot but then lost
-contact to the game due to lack of playing partners. I couple of
+contact to the game due to lack of playing partners. A couple of
 years ago I discovered [Lichess.org](https://lichess.org) and got back into playing. This
 re-boosted my playing level and so I thought I use their free data
 for this data science project on chess openings.
@@ -111,7 +111,7 @@ The analysis concentrates on three questions:
 
 ### Question 1: What are the most frequently used opening systems?
 
-We see the expected mix of are and complex opening systems for White
+We see a mix of rare and complex opening systems 
 which is due to the fact that the analysis was performed across all
 games independent of the players skill levels.  
 
